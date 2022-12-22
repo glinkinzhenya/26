@@ -78,11 +78,11 @@ Product.prototype.render = function () {
     <tr>
 	<td><img src="images/${this.category}/${this.type}.svg" alt="grater" width="50" height="50"></td>
 	<td>${this.type}</td>
-	<td>${this.price}</td>
+	<td>${this.price} USD</td>
     </tr>`
 };
 
-let html = [];
+const html = [];
 function filters(mass, category) {
     mass
         .filter(function (object, i) {
