@@ -1,0 +1,23 @@
+.table {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+tr,
+td {
+    text-align: center;
+}
+
+td {
+    width: 150px;
+}
+
+th {
+    font-weight: 900;
+    font-size: 25px;
+    height: 40px;
+}
+
+tr {
+    height: 60px;
+}
